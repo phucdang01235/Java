@@ -41,15 +41,14 @@ public class FencePainting{
                 if( avoidDuplication == j){
                    continue; 
                 }
-                else if(minimum < this.cost[i][j]){
+                else if(minimum > this.cost[i][j]){
                     minimum = this.cost[i][j];
                     avoidDuplication = j;
                 }
                 else
                     avoidDuplication = 0;
-
-                sum += minimum;
             }
+            sum += minimum;
         }
         return sum;
     }
