@@ -10,6 +10,7 @@ public class FencePainting{
         System.out.println("1.Enter number of iron bar");
         System.out.println("2.Enter cost table");
         System.out.println("3.Two-way matrix");
+        System.out.println("4.Minimum cost");
     }
 
     private void init () {
@@ -64,6 +65,7 @@ public class FencePainting{
     }
 
     public static void main(String[] args) {
+        int n;
         int option;
         FencePainting x = new FencePainting();
         do{
@@ -83,6 +85,9 @@ public class FencePainting{
                 case 3:
                     x.twoWayMatrix();
                     break;
+                case 4:
+                    n = x.calculateTheMinimumValue();
+                    System.out.printf("Minimum cost: %d \n", n);
                 default:
                     option = 0;
                     break;
