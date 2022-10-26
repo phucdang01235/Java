@@ -1,8 +1,8 @@
-package FastoreMenthod;
-import FastoreMenthod.Produtcs.Candy;
-import FastoreMenthod.Produtcs.Product;
-import FastoreMenthod.Produtcs.Robot;
-import FastoreMenthod.Produtcs.Technolegy;
+package DesignPattern.Creational.FastoreMenthod;
+import DesignPattern.Creational.FastoreMenthod.Produtcs.Candy;
+import DesignPattern.Creational.FastoreMenthod.Produtcs.Product;
+import DesignPattern.Creational.FastoreMenthod.Produtcs.Robot;
+import DesignPattern.Creational.FastoreMenthod.Produtcs.Technolegy;
 
 public class Export{
 	

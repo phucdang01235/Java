@@ -1,5 +1,5 @@
-package FastoreMenthod.Produtcs;
-import FastoreMenthod.Factory;
+package DesignPattern.Creational.FastoreMenthod.Produtcs;
+import DesignPattern.Creational.FastoreMenthod.Factory;
 
 public class Robot implements Factory{
 

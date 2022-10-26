@@ -1,6 +1,6 @@
-package FastoreMenthod.Produtcs;
+package DesignPattern.Creational.FastoreMenthod.Produtcs;
 
-import FastoreMenthod.Factory;
+import DesignPattern.Creational.FastoreMenthod.Factory;
 
 public class Candy implements Factory{
 	

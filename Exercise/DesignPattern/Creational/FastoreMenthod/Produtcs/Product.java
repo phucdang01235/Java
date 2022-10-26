@@ -1,4 +1,4 @@
-package FastoreMenthod.Produtcs;
+package DesignPattern.Creational.FastoreMenthod.Produtcs;
 
 	
 public enum Product {

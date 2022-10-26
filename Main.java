@@ -1,6 +1,6 @@
-package FastoreMenthod;
+package DesignPattern.Creational.FastoreMenthod;
 
-import FastoreMenthod.Produtcs.Product;
+import DesignPattern.Creational.FastoreMenthod.Produtcs.Product;
 
 public class Main{
 	
