@@ -9,6 +9,7 @@ public class DeterminingADNHealth {
     private List<Integer> health; //Denoting for health values
     private int s; // Denoting a set of DNA strand
     String[][] strand;
+    
 
     private static final Scanner sc = new Scanner(System.in);
 
