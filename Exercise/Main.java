@@ -5,6 +5,9 @@ public class Main{
 	public static void main(String[] args) {
 		DeterminingADNHealth test = new DeterminingADNHealth(6,3);
 		test.setGene();
+		test.setHealth();
+		test.setStrand();
+		test.tableHealthValues();
 		
 	}
 }
