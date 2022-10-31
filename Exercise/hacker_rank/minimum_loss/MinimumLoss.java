@@ -31,14 +31,5 @@ public class MinimumLoss {
         return space;
     }
 
-    public static void main(String[] args) {
-        int a = Integer.parseInt(sc.nextLine());
-        MinimumLoss test = new MinimumLoss(a);
-        for(int i =0 ; i< a; i++){
-            test.price.add(Integer.parseInt(sc.nextLine()));
-        }
-        
-        int s = test.lessLoss();
-        System.out.println(s);
-    } 
+
 }

@@ -1,4 +1,4 @@
-import hacker_rank.determining_adn_health.DeterminingADNHealth;
+//import hacker_rank.determining_adn_health.DeterminingADNHealth;
 
 public class Main{
 	
