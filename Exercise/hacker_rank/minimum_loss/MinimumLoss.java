@@ -2,12 +2,12 @@ package hacker_rank.minimum_loss;
 
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Scanner;
+
 
 public class MinimumLoss {
     int numberOf;
     private List<Integer> price;
-    private static final Scanner sc = new Scanner (System.in);
+    
 
     public MinimumLoss (int numberOf) {
         price = new LinkedList<Integer>();
